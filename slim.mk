@@ -1,7 +1,7 @@
 $(call inherit-product, vendor/slim/config/gsm.mk)
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
-$(call inherit-product, device/motorola/xt926/full_xt925.mk)
+$(call inherit-product, device/motorola/xt925/full_xt925.mk)
 
 # Device naming
 PRODUCT_DEVICE := xt925
