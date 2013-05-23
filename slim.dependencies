@@ -1,0 +1,27 @@
+[
+  {
+    "repository":  "darkspadez/device_motorola_msm8960-common",
+    "target_path": "device/motorola/msm8960-common",
+    "branch":      "jb4.2"
+  },
+  {
+    "repository":  "razrqcom-dev-team/android_kernel_motorola_msm8960-common",
+    "target_path": "kernel/motorola/msm8960-common",
+    "branch":      "cm-10.1"
+  },
+  {
+    "repository":  "razrqcom-dev-team/android_vendor_motorola_xt925",
+    "target_path": "vendor/motorola/xt925",
+    "branch":      "cm-10.1"
+  },
+  {
+    "repository":  "CyanogenMod/android_hardware_qcom_audio-caf",
+    "target_path": "hardware/qcom/audio-caf",
+    "branch":      "cm-10.1"
+  },
+  {
+    "repository":  "CyanogenMod/android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display",
+    "branch":      "cm-10.1"
+  }
+]
