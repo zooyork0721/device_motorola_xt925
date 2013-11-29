@@ -6,12 +6,6 @@ $(call inherit-product, device/motorola/msm8960-common/msm8960.mk)
 
 LOCAL_PATH := device/motorola/xt925
 
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
-else
-	LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
 # xt925 specific overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
