@@ -1,11 +1,11 @@
-$(call inherit-product, vendor/slim/config/gsm.mk)
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/ose/config/gsm.mk)
+$(call inherit-product, vendor/ose/config/common_full_phone.mk)
+$(call inherit-product, vendor/ose/config/nfc_enhanced.mk)
 $(call inherit-product, device/motorola/xt925/full_xt925.mk)
 
 # Device naming
 PRODUCT_DEVICE := xt925
-PRODUCT_NAME := slim_xt925
+PRODUCT_NAME := ose_xt925
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Droid RAZR HD
 PRODUCT_MANUFACTURER := Motorola
